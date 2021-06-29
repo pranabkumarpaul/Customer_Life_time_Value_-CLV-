@@ -18,7 +18,7 @@ library(RColorBrewer)
 ################### Data Import || Remove Duplicate || Backup ##################
 
 ### Load the data.
-CLV_Data = read.csv('D:\\Computer Course\\Ivy\\4. Statistics\\Z_Git_Hub\\Regression\\CLV_DATA.csv', na.strings = c(""," ","NA","NULL"), stringsAsFactors = T)
+CLV_Data = read.csv('D:\\Regression\\CLV_DATA.csv', na.strings = c(""," ","NA","NULL"), stringsAsFactors = T)
 
 ### Print the number of row.
 print(paste('Number of row before deleting duplicate values:', nrow(CLV_Data)))
